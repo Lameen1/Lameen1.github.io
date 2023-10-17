@@ -149,7 +149,7 @@ function yearlyOption(){
 }
 
 function goBackButton(){
-  window.location.pathname = "/step-pages/step-1/step-1.html"
+  window.location.pathname = "/step-pages/step-1/index.html"
 }
 
 function nextStep2 (){
