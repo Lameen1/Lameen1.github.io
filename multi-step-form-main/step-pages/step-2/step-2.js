@@ -126,7 +126,6 @@ function monthlyOption(){
   resetPlan()
   if (yearOptionActive == true){
     yearOptionActive = false
-    console.log(yearOptionActive)
   }
   screenUpdate()
 }
@@ -135,7 +134,6 @@ function swapOption(){
   resetPlan()
   yearOptionActive == false? yearOptionActive = true 
   : yearOptionActive = false;
-  console.log(yearOptionActive)
   screenUpdate()
 }
 
@@ -143,7 +141,6 @@ function yearlyOption(){
   resetPlan()
   if (yearOptionActive == false){
     yearOptionActive = true
-    console.log(yearOptionActive)
   }
   screenUpdate()
 }
@@ -157,7 +154,5 @@ function nextStep2 (){
     localStorage.setItem("userPlan", JSON.stringify(selectedPlan))
     localStorage.setItem("step2Yearly", JSON.stringify(yearOptionActive))
     window.location.pathname = "/multi-step-form-main/step-pages/step-3/step-3.html"
-  } else {
-    console.log("select plan")
   }
 }
