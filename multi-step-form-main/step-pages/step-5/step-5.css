@@ -89,7 +89,7 @@ body{
   flex-direction: column;
 }
 .checkmark{
-  background-image: url(/assets/images/icon-thank-you.svg);
+  background-image: url(/multi-step-form-main/images/icon-thank-you.svg);
   height: 80px;
   width: 80px;
   border-radius: 100%;
