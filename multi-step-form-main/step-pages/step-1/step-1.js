@@ -15,7 +15,7 @@ function step1Next (){
     userPersonalInfo.email = emailInput.value
     userPersonalInfo.phone = phoneInput.value
     localStorage.setItem("userInfo", JSON.stringify(userPersonalInfo))
-    window.location.pathname = "/step-pages/step-2/step-2.html"
+    window.location.pathname = "/../step-2/step-2.html"
   }else{
     if (nameInput.value == ""){
       nameError.innerText = "This field is required"
