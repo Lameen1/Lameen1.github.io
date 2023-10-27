@@ -90,6 +90,6 @@ function nextStep3(){
     window.location.pathname = "/step-pages/step-4/step-4.html"
   } else {
     localStorage.setItem("userAddOns", JSON.stringify(selectedAddOnsList))
-    window.location.pathname = "/step-pages/step-4/step-4.html"
+    window.location.pathname = "/multi-step-form-main/step-pages/step-4/step-4.html"
   }
 }
