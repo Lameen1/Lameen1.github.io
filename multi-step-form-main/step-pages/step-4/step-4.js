@@ -9,7 +9,6 @@ const finalUserPlan = JSON.parse(localStorage.getItem("userPlan"))
 
   const finalUserAddOns = JSON.parse(localStorage.getItem("userAddOns"))
   
-  console.log(finalUserPlan[0])
   let yearlyActive = JSON.parse(localStorage.getItem("step2Yearly"))
   let shortType = "/mo"
   let totalOfAddOns = 0
