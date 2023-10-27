@@ -156,7 +156,7 @@ function nextStep2 (){
   if (selectedPlan.length !== 0 ){
     localStorage.setItem("userPlan", JSON.stringify(selectedPlan))
     localStorage.setItem("step2Yearly", JSON.stringify(yearOptionActive))
-    window.location.pathname = "/step-pages/step-3/step-3.html"
+    window.location.pathname = "/multi-step-form-main/step-pages/step-3/step-3.html"
   } else {
     console.log("select plan")
   }
