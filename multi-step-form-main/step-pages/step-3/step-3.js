@@ -39,7 +39,6 @@ const addOnInfo = [
 let selectedAddOnsList = 0
 
 let yearlyActive = JSON.parse(localStorage.getItem("step2Yearly"))
-console.log(yearlyActive)
 
 if (yearlyActive == true){
   addOnPrice[0].innerText = "+10/yr"
@@ -66,7 +65,6 @@ function selectAddOn(e){
       } 
     }
   }
-  console.log(selectedAddOnsList)
 }
 
 function check (e){
