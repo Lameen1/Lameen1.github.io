@@ -82,7 +82,7 @@ function uncheck (e){
 }
 
 function goBackButton (){
-  window.location.pathname = "/step-pages/step-2/step-2.html"
+  window.location.pathname = "/multi-step-form-main/step-pages/step-2/step-2.html"
 }
 
 function nextStep3(){
