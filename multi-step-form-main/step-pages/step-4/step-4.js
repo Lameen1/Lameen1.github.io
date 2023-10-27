@@ -53,13 +53,13 @@ const finalUserPlan = JSON.parse(localStorage.getItem("userPlan"))
 
 
   function changePlan (){
-  window.location.pathname = "/step-pages/step-2/step-2.html"
+  window.location.pathname = "/multi-step-form-main/step-pages/step-2/step-2.html"
 }
 
   function goBackButton (){
-    window.location.pathname = "/step-pages/step-3/step-3.html"
+    window.location.pathname = "/multi-step-form-main/step-pages/step-3/step-3.html"
   }
 
   function finalSubmit (){
-    window.location.pathname = "/step-pages/step-5/step-5.html"
+    window.location.pathname = "/multi-step-form-main/step-pages/step-5/step-5.html"
   }
