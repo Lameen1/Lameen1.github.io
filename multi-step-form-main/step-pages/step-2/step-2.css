@@ -121,13 +121,13 @@ body{
   background-size: contain;
 }
 .arcade-icon{
-  background-image: url(/assets/images/icon-arcade.svg);
+  background-image: url(/multi-step-form-main/assets/images/icon-arcade.svg);
 }
 .advanced-icon{
-  background-image: url(/assets/images/icon-advanced.svg);
+  background-image: url(/multi-step-form-main/assets/images/icon-advanced.svg);
 }
 .pro-icon{
-  background-image: url(/assets/images/icon-pro.svg);
+  background-image: url(/multi-step-form-main/assets/images/icon-pro.svg);
 }
 .plan-name{
   font-size: 18px;
