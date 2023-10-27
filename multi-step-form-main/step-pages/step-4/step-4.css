@@ -228,7 +228,7 @@ body{
   }
   .mobile-svg{
     display: flex;
-    background-image: url(/assets/images/bg-sidebar-mobile.svg);
+    background-image: url(/multi-step-form-main/assets/images/bg-sidebar-mobile.svg);
     height: 140px;
     width: 100%;
     background-size: cover;
